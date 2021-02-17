@@ -8,10 +8,10 @@ import re
 
 # add your keys
 
-access_token = "242692217-T3GPCSZjOBWqu7xu13o5pgZsLHWTEFQAZmutrOAi"
-access_secret = "PynDokq6QpA0V51mxqRvEj48cYHIZiLGkpvp893WzdV2O"
-consumer_key = "6NM4DTsfcSBGJ7x8HEIdFybpz"
-consumer_secret = "hvcZLFePrFDkLwawJWM07EVS0DbkJxi5VD1BQfnD9nrbJ7dSn5"
+access_token = ""
+access_secret = ""
+consumer_key = ""
+consumer_secret = ""
 
 auth = OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
